@@ -1,10 +1,23 @@
 \documentclass{beamer}
+
+% Lets us change fonts
+\usepackage{fontspec}
+
+% Use the diepen theme with a custom image
 \usetheme[backgroundimagefile=img/background.png,opacity=0.70]{diepen}
+
+% Set a custom font (must be installed on your computer
+\usefonttheme{professionalfonts}
+\usefonttheme{serif}
+\setmainfont{Asar}
+
+% Title slide stuff
 \title[]{Object Relational Mapping}
 \subtitle[]{A Guide to the TypeORM Changes}
-\author[]{Connor Johnstone}
-\institute[]{Palski and Associates}
-\date{}
+\author[]{Connor Johnstone\\ \vspace{-10pt}}
+\institute[]{Palski and Associates\\ \vspace{-10pt}}
+\date[]{\tiny{\today}}
+
 \begin{document}
 
   \begin{frame}
