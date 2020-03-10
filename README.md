@@ -8,7 +8,7 @@ First you need the beamer theme, so follow the instructions [here](https://www.g
 Then install with pdflatex:
 
 ```bash
-pdflatex slides.tex -o presentation.pdf
+pdflatex -jobname=presentation slides.tex
 ```
 
 ## Future Work
